@@ -32,7 +32,7 @@ Once these steps are completed, you must remake and reboot reptilian to test the
 To test this on another system you must first create a patch file using the steps from the project description.
 The user on the new system must apply the patch file on a clean kernel source directory using:  
 $ git apply patch_file.diff  
-$ make && sudo make install && sudo make modules_install
+$ make && sudo make install && sudo make modules_install  
 The system calls can then be tested through the compressed folder made in step 8 from Design:  
 1.) Uncompress the folder using tar  
 2.) Navigate into the folder and build the library using make  
