@@ -20,11 +20,11 @@ are able set the kernel-wide process log level. To achieve this security the set
 to obtain the user's credential level.
 
 The latter part of the project involved creating the static library. The steps were as follows:  
-4.) creating process_log directory
-5.) creating a header file, process_log.h, with the function declarations given in the project description
-6.) creating a c file to implement the functions, process_log.c
-7.) creating a Makefile to compile the source files and create a static library, libprocess_log.a
-8.) Tar the source, header, and makefile into a compressed folder
+4.) creating process_log directory  
+5.) creating a header file, process_log.h, with the function declarations given in the project description  
+6.) creating a c file to implement the functions, process_log.c  
+7.) creating a Makefile to compile the source files and create a static library, libprocess_log.a  
+8.) Tar the source, header, and makefile into a compressed folder  
 
 
 ## Verification
@@ -34,9 +34,9 @@ The user on the new system must apply the patch file on a clean kernel source di
 $ git apply patch_file.diff  
 $ make && sudo make install && sudo make modules_install
 The system calls can then be tested through the compressed folder made in step 8 from Design:  
-1.) Uncompress the folder using tar
-2.) Navigate into the folder and build the library using make
-3.) Link against the library to test the library and harness functions with your own test files.
+1.) Uncompress the folder using tar  
+2.) Navigate into the folder and build the library using make  
+3.) Link against the library to test the library and harness functions with your own test files.  
 
 ##Contact
 Thank you, for any questions please email andrescanas001@ufl.edu
