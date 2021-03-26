@@ -1,0 +1,9 @@
+Current Version:
+
+No Known Bugs. Please report any bugs to andrescanas001@ufl.edu
+
+
+Previous Version:
+'=' operator can cause unnecessary thrown errors in some cases. It is used both as an assigning operator and comparison operator.
+In cases where the program was assigning, it would check the comparison operators and attempt to validate as a comparison operator.
+This error has been fixed.
