@@ -18,11 +18,11 @@ The team members working on this project were Andres Canas and Daran Wang. Unfor
 
 Andres;  
 All built in commands.  
-Alias expansion.   
+Alias expansion.  
 Environment variable expansion. 
-Error handling. 
-Parser Recursion 
-Single Non-built in command with any variable number of arguments 
+Error handling\
+Parser Recursion\
+Single Non-built in command with any variable number of arguments\
 Searching command in path environment variable 
 
 Daran;
@@ -32,7 +32,7 @@ Nothing
 ## None-completed Features 
 Piping\
 IO redirection\
-Wild card matching\
+Wild card matching
 
 
 ##Contact
