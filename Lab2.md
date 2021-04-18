@@ -2,15 +2,15 @@
 Andres Canas
 
 ## Description
-The purpose of this project is to create a bash-like shell using lex and yacc. The project use FLEX and BISON implementation. The shell is unix based. It never quits unless the command 'bye' is inputted. 
+The purpose of this project is to create a bash-like shell using lex and yacc. The project uses FLEX and BISON implementation. The shell is unix based. It never quits unless the command 'bye' is inputted. 
 
 
 ## Design	
-This shell system is designed using C. The two main modules are the scanner (nutshscanner.l) and the parser (nutshparser.y). The scanner reads and tokenizes the text. The parser structures the code to make sense of the tokens. Recursion is used in the parser to understand the variable number of arguments common to any shell. A global.h file is used to store variables, commands, and paths available to all shell files.
+This shell system is designed using C. The two main modules are the scanner (nutshscanner.l) and the parser (nutshparser.y). The scanner reads and tokenizes the text. The parser structures the shell language to make sense of the tokens. Recursion is used in the parser to understand the variable number of arguments common to any shell. A global.h file is used to store variables, commands, and paths available to all shell files.
 
 
 ## Verification
-This project contains a make file which can be used to build the flex and bison files, as well as the executable program ‘nutshell.’ Make clean and make can be used to easily rebuild the program after adjustments are made to the code.
+This project contains a make file which can be used to build the flex and bison files, as well as the executable program ‘nutshell.’ Make clean and make can be used to easily rebuild the program after adjustments are made to the code. ./nutshell will start your shell. Or run the command from any directory!
 
 
 ## Project Breakdown
