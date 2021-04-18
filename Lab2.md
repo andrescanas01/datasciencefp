@@ -21,9 +21,9 @@ All built in commands.
 Alias expansion.   
 Environment variable expansion. 
 Error handling. 
-Parser Recursion.   
-Single Non-built in command with any variable number of arguments. 
-Searching command in path environment variable. 
+Parser Recursion 
+Single Non-built in command with any variable number of arguments 
+Searching command in path environment variable 
 
 Daran;
 Nothing 
