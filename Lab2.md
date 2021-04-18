@@ -30,9 +30,9 @@ Nothing
 
 
 ## None-completed Features 
-Piping 
-IO redirection 
-Wild card matching
+Piping. 
+IO redirection. 
+Wild card matching. 
 
 
 ##Contact
