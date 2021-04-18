@@ -9,7 +9,7 @@ This Recursive Descent Parser is designed in C++ and uses three supporting modul
 
 
 ## Verification
-The folder contains a Makefile, which can be used to build the executable program 'subc'.  
+The folder contains a Makefile, which can be used to build the executable program 'subc'.    
 The program can be ran as follows: ./subc path_to_program_text_file  
 or as: ./subc -ast path_to_program_text_file  
 to print out the Abstract Syntax Tree  
