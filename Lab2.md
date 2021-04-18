@@ -36,5 +36,5 @@ IO input redirection\
 Wild card matching
 
 
-##Contact
+
 Thank you, for any questions please email andrescanas001@ufl.edu
