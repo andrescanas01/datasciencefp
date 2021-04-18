@@ -16,12 +16,12 @@ This project contains a make file which can be used to build the flex and bison 
 ## Project Breakdown
 The team members working on this project were Andres Canas and Daran Wang. Unfortunately, Daran Wang was not able to continue with this project. The completed features are broken down by team members as follows;  
 
-Andres; 
+Andres;  
 All built in commands. 
 Alias expansion.  
 Environment variable expansion.  
-Error handling     
-Parser Recursion. 
+Error handling      
+Parser Recursion.  
 Single Non-built in command with any variable number of arguments 
 Searching command in path environment variable 
 
