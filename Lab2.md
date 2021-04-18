@@ -28,5 +28,12 @@ Searching command in path environment variable
 Daran;
 Nothing 
 
+
+## None-completed Features 
+Piping 
+IO redirection 
+Wild card matching
+
+
 ##Contact
 Thank you, for any questions please email andrescanas001@ufl.edu
